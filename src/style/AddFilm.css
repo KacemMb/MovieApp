@@ -1,0 +1,14 @@
+.addBtn img{
+    width: 40px;
+}
+.addBtn{
+    background-color: var(--mainBackGroundColor);
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+}
+.addBtn :hover{
+    background-color: var(--hoverDarkColor);
+    border-radius: 50px;
+    opacity: .5;
+}

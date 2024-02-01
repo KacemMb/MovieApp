@@ -1,0 +1,32 @@
+.search{
+    background-color: var(--grayColor);
+    display: flex;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.search img{
+    width: 40px;
+}
+
+.search input {
+    width: 80%;
+    border-radius: 25px 0 0 25px;
+    padding-left: 30px;
+    font-size: 1.5em;
+    border: none;
+    background-color: var(--grayColor);
+    color: var(--whiteColor);
+    outline: none;
+}
+.searchBtn{
+    width: 20%;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    background-color: var(--grayColor);
+    cursor: pointer;
+}
+.searchBtn :hover{
+    opacity: 0.2;
+
+}

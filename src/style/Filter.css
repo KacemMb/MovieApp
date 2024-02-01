@@ -1,0 +1,23 @@
+.filterBtn{
+    background-color: var(--mainBackGroundColor);
+    border: none;
+    cursor: pointer;
+}
+.filterBtn :hover{
+    background-color: var(--hoverDarkColor);
+    border-radius: 50px;
+    opacity: .5;
+}
+.mb-3{
+    margin: 5px 5%;
+    width: 40%;
+}
+.myForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myLabel {
+    margin: 10px 5%;
+    font-size: 1.3em;
+    font-weight: 400;
+}

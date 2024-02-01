@@ -1,0 +1,15 @@
+:root{
+    --mainRedColor:#E50914;
+    --mainBackGroundColor:#141414;
+    --hoverDarkColor:#212121;
+    --grayColor:#564d4d;
+    --darkGrayColor:#2f2a2a;
+    --whiteColor:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    background-color: var(--mainBackGroundColor);
+}
