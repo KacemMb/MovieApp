@@ -5,11 +5,12 @@
     --grayColor:#564d4d;
     --darkGrayColor:#2f2a2a;
     --whiteColor:white;
+    --bodyBGColor : #1e1e1e;
 }
 *{
     margin: 0;
     padding: 0;
 }
 .App{
-    background-color: var(--mainBackGroundColor);
+    background-color: var(--bodyBGColor);
 }

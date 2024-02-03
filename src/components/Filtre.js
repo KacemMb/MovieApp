@@ -40,7 +40,7 @@ function Filtre() {
   const language = [
     { id: 1, value: 'ar', label: 'arabic' },
     { id: 2, value: 'fr', label: 'franch' },
-    { id: 3, value: 'en', label: 'english' },
+    { id: 3, value: 'en', label: 'english'},
   ];
   const movieGenres = [
     { id: 1, name: 'Action', type: 'checkbox', value: 'Action' },
@@ -67,22 +67,25 @@ function Filtre() {
         </Modal.Header>
         <Modal.Body>
           <label htmlFor="" className='myLabel'>Language</label>
-          <Form.Select aria-label="Default select example">
+          <Form.Select aria-label="Default select example" onChange={handleLanguageChange} value={selectedLanguage}>
+            <option value="" disabled>Select Language</option>
             {language.map((item) => (
               <option key={item.id} value={item.value}>
                 {item.label}
               </option>
             ))}
-          </Form.Select>
+          </Form.Select >
           <label htmlFor="" className='myLabel'>Genres</label>
           <Form className='myForm'>
             {movieGenres.map((it) => (
-              <div key={`default-${it.type}`} className="mb-3">
+              <div key={it.id} className="mb-3">
                 <Form.Check
                   type={it.type}
                   id={it.id}
                   label={it.name}
                   value={it.value}
+                  checked={selectedGenres.includes(it.id)}
+                  onChange={() => handleGenreChange(it.id)}
                 />
               </div>
             ))}
@@ -92,7 +95,7 @@ function Filtre() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary" onClick={handleSubmit}>Understood</Button>
         </Modal.Footer>
       </Modal>
     </>

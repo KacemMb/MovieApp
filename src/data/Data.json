@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "title": "The GodFather",
+      "year": 1972,
+      "rating": 9.2,
+      "genre": "Drama Action",
+      "language": "English",
+      "image": "./images/GodFather.jpeg",
+      "description": "The aging patriarch of a New York mob dynasty passes the torch of his underground empire to his reluctant son."
+    },
+    {
+      "id": 2,
+      "title": "The GodFather : Part 2",
+      "year": 1974,
+      "rating": 9.0,
+      "genre": "Drama Action",
+      "language": "English",
+      "image": "./images/GodFather2.jpeg",
+      "description": "The life and career of Vito Corleone in 1920s New York as his son, Michael, expands and strengthens his grip on the family crime syndicate."
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "rating": 9.0,
+      "genre": "Action Adventure Drama",
+      "language": "English",
+      "image": "./images/The Dark Knight.jpeg",
+      "description": "When a threat better known as The Joker emerges from his mysterious past and unleashes chaos on the city of Gotham, Batman must face the greatest of psychological and physical challenges in order to fight injustice."
+    },
+    {
+      "id": 4,
+      "title": "The good, the bad and the ugly",
+      "year": 1966,
+      "rating": 8.8,
+      "genre": "",
+      "language": "English",
+      "image": "./images/cowBoys.jpeg",
+      "description": "A bounty hunting scam pairs two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+      "id": 5,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "rating": 8.9,
+      "genre": "",
+      "language": "English",
+      "image": "./images/The Lord of the Rings The Fellowship of the Ring.jpeg",
+      "description": "A Shire Hobbit and his eight companions set out to destroy the powerful One Ring and save Middle-earth from the terrible Sauron."
+    },
+    {
+      "id": 6,
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "rating": 8.8,
+      "genre": "",
+      "language": "English",
+      "image": "./images/The Lord of the Rings The Two Towers.jpeg",
+      "description": "As Frodo and Sam move closer to Mordor with Gollum's help, the divided community takes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    },
+    {
+      "id": 7,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "rating": 9.0,
+      "genre": "",
+      "language": "English",
+      "image": "./images/The Lord of the Rings The Return of the King.jpeg",
+      "description": "Gandalf and Aragorn lead the world of men against Sauron's army to keep his gaze away from Frodo and Sam when they approach Mount Doom with the Ring."
+    },
+    {
+      "id": 8,
+      "title": "Fight Club",
+      "year": 1999,
+      "rating": 8.8,
+      "genre": "",
+      "language": "English",
+      "image": "./images/Fight Club.jpeg",
+      "description": "An insomniac office worker and a soap maker form an underground fight club that becomes much more than that."
+    },
+    {
+      "id": 9,
+      "title": "Matrix",
+      "year": 1999,
+      "rating": 8.7,
+      "genre": "",
+      "language": "English",
+      "image": "./images/Matrix.jpeg",
+      "description": "A computer hacker discovers the true nature of his reality and his role in the war against those who control it from mysterious rebels."
+    },
+    {
+      "id": 10,
+      "title": "Al-risâlah",
+      "year": 1976,
+      "rating": 8.9,
+      "genre": "",
+      "language": "Arabic",
+      "image": "./images/risala.jpeg",
+      "description": "The story of prophet 'Muhammad' and the delivery of the message of God 'Allah.'"
+    },
+    {
+      "id": 11,
+      "title": "El-Gezirah",
+      "year": 2007,
+      "rating": 7.8,
+      "genre": "",
+      "language": "Arabic",
+      "image": "./images/El-Gezirah.jpeg",
+      "description": "'El Gezira' is a film about a community of Upper Egypt residents living in El Gezira (the Island). They have their own set of rules, ethics and traditions."
+    },
+    {
+      "id": 12,
+      "title": "Alf Mabrook",
+      "year": 2009,
+      "rating": 7.4,
+      "genre": "",
+      "language": "Arabic",
+      "image": "./images/Alf Mabrook.jpeg",
+      "description": "A guy lives the same day over and over and deals with the same events each time which changes the way he looks to his life."
+    },
+    {
+      "id": 13,
+      "title": "Morgan Ahmed Morgan",
+      "year": 2007,
+      "rating": 6.4,
+      "genre": "",
+      "language": "Arabic",
+      "image": "./images/morgan ahmad morgan.jpeg",
+      "description": "Morgan, who is an uneducated very rich man, is used to buy everything he wants. Now the one thing we wants is a college certificate which he seeks to buy."
+    },
+    {
+      "id": 14,
+      "title": "El Nazer",
+      "year": 2000,
+      "rating": 8.0,
+      "genre": "",
+      "language": "Arabic",
+      "image": "./images/El Nazer.jpeg",
+      "description": "Salah eldin inherit administration of a school from his father, but he abusive its management due to his lack of experience."
+    }
+  ]
+  
